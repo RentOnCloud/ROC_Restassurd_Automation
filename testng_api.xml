@@ -5,6 +5,7 @@
 		<classes>
 			<class name="com.roc.testcases.GetUsers"></class>
 			<class name="com.roc.testcases.GetParticularUser"></class>
+			<class name="com.roc.testcases.DeleteUser"></class>
 
 		</classes>
 	</test>
