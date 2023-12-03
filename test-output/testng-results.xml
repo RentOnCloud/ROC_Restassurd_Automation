@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-03T05:10:16 IST" name="Default suite" finished-at="2023-12-03T05:10:22 IST" duration-ms="5874">
+  <suite started-at="2023-12-03T20:31:38 IST" name="RestAPI Automation Test Suite" finished-at="2023-12-03T20:31:45 IST" duration-ms="6880">
     <groups>
     </groups>
-    <test started-at="2023-12-03T05:10:16 IST" name="Default test" finished-at="2023-12-03T05:10:22 IST" duration-ms="5874">
+    <test started-at="2023-12-03T20:31:38 IST" name="RestAPI Automation Test Cases" finished-at="2023-12-03T20:31:45 IST" duration-ms="6880">
       <class name="com.roc.testcases.GetParticularUser">
-        <test-method signature="test03_GetParticularUser()[pri:0, instance:com.roc.testcases.GetParticularUser@c33b74f]" started-at="2023-12-03T05:10:16 IST" name="test03_GetParticularUser" finished-at="2023-12-03T05:10:22 IST" duration-ms="5762" status="PASS">
+        <test-method signature="test03_GetParticularUser()[pri:0, instance:com.roc.testcases.GetParticularUser@16ec5519]" started-at="2023-12-03T20:31:44 IST" name="test03_GetParticularUser" finished-at="2023-12-03T20:31:45 IST" duration-ms="713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test03_GetParticularUser -->
       </class> <!-- com.roc.testcases.GetParticularUser -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.roc.testcases.GetUsers">
+        <test-method signature="test01_getalluser()[pri:0, instance:com.roc.testcases.GetUsers@2c767a52]" started-at="2023-12-03T20:31:38 IST" name="test01_getalluser" finished-at="2023-12-03T20:31:44 IST" duration-ms="6014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_getalluser -->
+      </class> <!-- com.roc.testcases.GetUsers -->
+    </test> <!-- RestAPI Automation Test Cases -->
+  </suite> <!-- RestAPI Automation Test Suite -->
 </testng-results>
